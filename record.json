@@ -1,0 +1,23 @@
+{
+  "record_id": "LP728-VERIFICATION-RIGHTS-20261011",
+  "record_type": "BEREAVED_FAMILY_PUBLIC_PRINCIPLE_AND_TESTIMONY",
+  "principle": "유족의 절대적 원천 검증권리",
+  "controller_responsibility": "원자료 생성·보존·이관·폐기·공개 경위의 설명 책임",
+  "mfds_request_status": "NOT_ADOPTED",
+  "nfs_request_status": "ADOPTED",
+  "hearing_date": "2026-08-13",
+  "next_hearing_date_reported": "2026-10-29",
+  "source": "유족 제공 공개 후기 원문 및 공개 게시물 화면",
+  "website": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/hearing-20260813/",
+  "scope": "LP728 공개 아카이브 원칙·증언; 기존 프로토콜 버전 변경은 별도 기록",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "ee3681c1987dac541955868efc3aff9c54dbd4a05eb3e91c1d82cf07aab01e15"
+    },
+    {
+      "path": "records/2026-08-13-public-hearing-testimony.md",
+      "sha256": "fb74287c2883f16ba31b5a0661198baf4e6e5bdf91a9aba94cd0b78a128abcf6"
+    }
+  ]
+}
