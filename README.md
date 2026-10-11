@@ -33,7 +33,7 @@ LP728은 고 박한결(2003-04-08~2019-07-28)의 접종 기록, 생전 증상, �
 
 식약처 사실조회 불채택으로 제조·품질·시험 원자료에 관한 질문이 해소된 것은 아니다. 국과수 사실조회 채택 이후에도 생성·폐기 경위와 재검증 자료에 관한 답변을 추적한다.
 
-[유족 공개 후기 원문](records/2026-08-13-public-hearing-testimony.md) · [홈페이지의 증거 맥락과 미해결 과제](https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/hearing-20260813/) · [정보공개·기관 회신 대조](https://sgp-qsv-archive.pupiloo70.chatgpt.site/foi/20261011/)
+[유족 공개 후기 원문](2026-08-13-public-hearing-testimony.md) · [홈페이지의 증거 맥락과 미해결 과제](https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/hearing-20260813/) · [정보공개·기관 회신 대조](https://sgp-qsv-archive.pupiloo70.chatgpt.site/foi/20261011/)
 
 ## 기록 운영 원칙
 
