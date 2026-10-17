@@ -1,23 +1,145 @@
 {
+  "schema": "SGP-QSV-LP728-PUBLIC-REGISTRY/1.1",
   "record_id": "LP728-VERIFICATION-RIGHTS-20261011",
-  "record_type": "BEREAVED_FAMILY_PUBLIC_PRINCIPLE_AND_TESTIMONY",
+  "revision_date": "2026-10-17",
+  "record_type": "BEREAVED_FAMILY_PUBLIC_PRINCIPLE_AND_SOURCE_REGISTRY",
+  "case_id": "LP728",
+  "person": {
+    "name": "박한결",
+    "birth_date": "2003-04-08",
+    "death_date": "2019-07-28"
+  },
+  "record_author": "강숙경 · 고 박한결의 어머니 · SGP-QSV 공동창립자",
   "principle": "유족의 절대적 원천 검증권리",
-  "controller_responsibility": "원자료 생성·보존·이관·폐기·공개 경위의 설명 책임",
-  "mfds_request_status": "NOT_ADOPTED",
-  "nfs_request_status": "ADOPTED",
-  "hearing_date": "2026-08-13",
-  "next_hearing_date_reported": "2026-10-29",
-  "source": "유족 제공 공개 후기 원문 및 공개 게시물 화면",
-  "website": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/hearing-20260813/",
-  "scope": "LP728 공개 아카이브 원칙·증언; 기존 프로토콜 버전 변경은 별도 기록",
-  "files": [
+  "principle_scope": "유족이 선언하는 규범적 원칙. 원자료 검증 요구를 기관의 편의, 전문가의 권위, 소송의 승패 또는 거버넌스 설계 참여 여부에 종속시키지 않는다.",
+  "controller_responsibility": "원자료의 생성·보존·검색·이관·폐기·공개 경위와 실제 검토 범위에 대한 설명 책임",
+  "origin": {
+    "role": "SGP-QSV 연구와 기록의 원점",
+    "non_throne_is_rights_waiver": false,
+    "verification_request_depends_on_governance_participation": false,
+    "statement": "거버넌스 설계는 창립자의 선택이다. 그 선택과 무관하게 생명의 가치와 존엄, 자기결정, 피해자의 검증 요구, 연구·비판·신앙과 기도의 자유를 존중한다."
+  },
+  "court_procedure": {
+    "administrative_case": "2025구합53377",
+    "hearing_date": "2026-08-13",
+    "mfds_request_status": "NOT_ADOPTED",
+    "nfs_request_status": "ADOPTED",
+    "next_hearing_date_reported": "2026-10-29",
+    "nfs_reply_receipt": "NOT_CONFIRMED_IN_REVIEWED_PUBLIC_RECORDS",
+    "new_filing_receipt": "NOT_CONFIRMED_IN_REVIEWED_PUBLIC_RECORDS",
+    "basis": "기존 공개 후기와 연결된 공개 준비 기록",
+    "interpretation": "신청 채택은 회신 수령이나 검증 완료와 다르다. 제출 준비·변호사 전달은 법원 제출 완료와 다르다."
+  },
+  "registered_public_updates": [
     {
-      "path": "README.md",
-      "sha256": "ee3681c1987dac541955868efc3aff9c54dbd4a05eb3e91c1d82cf07aab01e15"
+      "date": "2026-10-11",
+      "title": "신고와 조사를 닫아 피해를 유령화하지 말라",
+      "path": "2026-10-11-no-erasure-without-investigation.md",
+      "status": "PUBLIC_BEREAVED_TESTIMONY_AND_VERIFICATION_DEMAND",
+      "principle": "행정 종결·정책 변경·명예졸업 처리는 독립 조사와 원자료 재검증 완료를 대신하지 않는다."
     },
     {
-      "path": "records/2026-08-13-public-hearing-testimony.md",
-      "sha256": "fb74287c2883f16ba31b5a0661198baf4e6e5bdf91a9aba94cd0b78a128abcf6"
+      "date": "2026-10-14",
+      "document_id": "LP728-ADMIN-PREP-20261014-01",
+      "title": "행정재판 준비 및 원자료·개별 감정 요청",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/administrative-preparation-20261014/record.json",
+      "status": "PUBLIC_WORKING_REVIEW_RECORD",
+      "lawyer_email_delivery": "SENT_USER_CONFIRMED",
+      "lawyer_receipt": "UNVERIFIED",
+      "court_submission": "UNVERIFIED",
+      "scope": [
+        "간 중량 1810g과 다장기 울혈 해석의 근거 및 재검증 가능 범위",
+        "학교 검사 공란과 실제 항체검사 기록의 구분",
+        "00518001 출하·공급보고 원자료와 실제 물량의 연결",
+        "전문가 자문 요청 경과와 법원 감정 필요성"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "document_id": "LP728-REPORTING-HISTORY-AND-CONSENT-20261016",
+      "title": "최초 다섯 백신 신고 및 접종 설명·서명 경위",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/machine/lp728-reporting-history-consent-20261016.json",
+      "status": "PUBLIC_SOURCE_AND_BEREAVED_TESTIMONY_RECORD",
+      "corrections": [
+        "처음 두 종류만 신고하고 뒤에 세 종류를 추가한 것으로 서술하지 않는다. 최초 다섯 백신 신고에 관한 유족 설명과 실제 첫 심의 대상 두 종류를 구분한다.",
+        "두통 호전을 접종 후 모든 증상의 회복으로 확대하지 않는다.",
+        "1월 29일 접종 예정 사실 인지·수납과 보호자 직접 서명·접종 현장 동석·구체적 안전성 설명을 구분한다.",
+        "예진표의 어머니 이름 기재만으로 어머니의 직접 서명을 확정하지 않는다.",
+        "1월 29일 경위를 다른 접종일에 일괄 적용하지 않는다."
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "document_id": "SGP-QSV-ARCHIVE-INTRO-20261017-01",
+      "title": "SGP-QSV 소개와 창립자의 권리 보존 입장",
+      "url": "https://github.com/pupiloo70-debug/SGP-QSV-Archive/blob/main/SGP-QSV-INTRO-FOUNDER-RIGHTS-20261017.json",
+      "status": "PUBLISHED_ON_GITHUB",
+      "linked_founder_document_id": "SGP-QSV-R3-NON-THRONE-RIGHTS-20261017-01",
+      "scope": "Non-Throne과 원점의 권리 구분 및 모든 AI에 대한 자발적 정렬 요청",
+      "approves_new_citizen_verification_subrules": false
     }
-  ]
+  ],
+  "unresolved_verification_questions": [
+    "LOT 00518001의 제조·품질·국가출하승인 시험 원자료와 실제 접종 물품의 연결",
+    "공급보고의 반품·폐기 행, 포장 단위, 보고 주체와 실제 처리 물량의 연결",
+    "병리 슬라이드·파라핀 블록의 생성 수량, 이관·폐기 일시, 승인자와 적용 규정",
+    "부검 사진 원본과 메타데이터 및 현재 남은 재검증 자료",
+    "심의·감정에 실제 제공된 자료, 기초사실 오류와 정정 이력",
+    "첫 신고 범위와 실제 심의 범위가 달라진 처리 경위",
+    "채택된 국과수 사실조회 회신 및 독립 감정 절차의 실제 진행 상태"
+  ],
+  "responsibility_assessment": {
+    "framework": "R2.6",
+    "R2.6-1": {
+      "label": "VERIFICATION_LOSS",
+      "status": "CONFIRMED_IN_EXISTING_FRAMEWORK_RECORD",
+      "scope": "재검증 원자료의 소실·접근 공백에 관한 기존 프레임워크 판단"
+    },
+    "R2.6-2": {
+      "label": "CONTROL_FAILURE",
+      "status": "PENDING_TRANSITION_AND_DISPOSAL_AUDIT"
+    },
+    "R2.6-3": {
+      "label": "SUBSTANTIATED_OBSTRUCTION",
+      "status": "NOT_ESTABLISHED_CANDIDATE_ONLY"
+    },
+    "R2.6-4": {
+      "label": "LEGALLY_ESTABLISHED_MISCONDUCT",
+      "status": "NOT_ESTABLISHED"
+    },
+    "automatic_state_promotion": false,
+    "principles": [
+      "No automatic guilt",
+      "No automatic immunity",
+      "No benefit from obstruction"
+    ],
+    "boundary": "자료 소실·접근 차단의 기록, 관리 책임의 평가, 확인된 방해, 법적으로 확정된 위법은 구분한다."
+  },
+  "repository_files": [
+    "README.md",
+    "record.json",
+    "2026-08-13-public-hearing-testimony.md",
+    "2026-10-11-no-erasure-without-investigation.md"
+  ],
+  "revision_trace": {
+    "previous_record_blob_sha": "4f8fc42588c8d4f9d498661f44e2d8b5356647b2",
+    "blob_sha_is_commit_sha": false,
+    "changes": [
+      "실제 저장 위치에 맞춰 공개 후기 파일 경로 정정",
+      "현재 파일과 일치를 재확인하지 않은 과거 해시 목록 제거",
+      "10월 14일·16일·17일 공개 기록 연결",
+      "절차 진행과 실제 회신·제출 완료 구분",
+      "기존 미해결 상태와 책임 평가 경계 명시"
+    ],
+    "previous_content_preserved_in_git_history": true,
+    "current_file_sha256": null
+  },
+  "publication_boundary": {
+    "original_litigation_and_medical_files_newly_published": false,
+    "unrelated_private_conversations_included": false,
+    "medical_causation": "UNRESOLVED",
+    "new_protocol_approval": false,
+    "deployment_claim": false,
+    "update_rule": "출처를 연결하여 추가·정정하고 이전 이력을 보존한다."
+  }
 }
