@@ -1,0 +1,229 @@
+{
+  "schema": "SGP-QSV-CASE-READING-INDEX/1.0",
+  "document_id": "LP728-AND-SEPARATE-HOJUN-READING-INDEX-20261020-01",
+  "record_date": "2026-10-20",
+  "timezone": "Asia/Seoul",
+  "status": "PUBLIC_SOURCE_LINKED_WORKING_INDEX",
+  "publication_basis": "USER_EXPLICIT_GITHUB_CASE_ISSUES_AND_SOURCE_ORGANIZATION_REQUEST",
+  "primary_case": "LP728",
+  "related_case_is_separate": true,
+  "original_medical_or_litigation_files_newly_published": false,
+  "review_scope": "기존 공개 기록과 현재 저장소 내용을 대조한 사건별 읽기 색인. 원자료 재판독·법원 실시간 조회 아님",
+  "sources": {
+    "LP_ROOT": {
+      "path": "record.json",
+      "record_id": "LP728-VERIFICATION-RIGHTS-20261011",
+      "revision_date": "2026-10-17"
+    },
+    "LP_HEARING": {
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/hearing-20260813/record.json"
+    },
+    "LP_ADMIN": {
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/administrative-preparation-20261014/record.json"
+    },
+    "LP_CIVIL": {
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/appeal-preparation-20261013/record.json"
+    },
+    "LP_REPORTS": {
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/reporting-evidence-20261019/record.json",
+      "document_id": "LP728-REPORTING-EVIDENCE-20261019-01"
+    },
+    "LP_PHARMA": {
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/lp728/pharma-email-20261019/record.json",
+      "record_id": "LP728-PHARMA-EMAIL-20261019-01"
+    },
+    "HJ_CASE": {
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/hojun-verification-20261016/record.json",
+      "record_id": "HOJUN-FOUR-FILINGS-THREE-REJECTIONS-20261016"
+    },
+    "HJ_REVIEW": {
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/hojun-verification-20261016/review-v3-20261017.json",
+      "record_id": "HOJUN-ADMIN-REVIEW-V3-20261017"
+    }
+  },
+  "cases": {
+    "LP728": {
+      "person": "박한결",
+      "role": "PRIMARY_CASE_ORIGIN",
+      "tracks": [
+        {
+          "track_id": "LP728-ADMIN",
+          "court_case": "2025구합53377",
+          "next_hearing": {
+            "date": "2026-10-29",
+            "status": "REPORTED_IN_PUBLIC_RECORD_NOT_FRESH_COURT_VERIFICATION",
+            "source_ref": "LP_HEARING"
+          },
+          "procedure": {
+            "mfds_fact_inquiry": "NOT_ADOPTED",
+            "nfs_fact_inquiry": "ADOPTED",
+            "nfs_court_reply_receipt": "NOT_CONFIRMED_IN_REVIEWED_PUBLIC_RECORDS",
+            "latest_preparation_court_submission": "UNVERIFIED",
+            "counsel_email_delivery": "SENT_USER_CONFIRMED",
+            "counsel_receipt": "UNVERIFIED"
+          },
+          "source_refs": [
+            "LP_ROOT",
+            "LP_HEARING",
+            "LP_ADMIN"
+          ]
+        },
+        {
+          "track_id": "LP728-CIVIL-APPEAL",
+          "court_case": "2026나30754",
+          "status": "PUBLIC_WORKING_ISSUE_RECORD",
+          "source_ref": "LP_CIVIL",
+          "do_not_merge_with_administrative_track": true
+        }
+      ],
+      "issues": [
+        {
+          "issue_id": "LP728-I01",
+          "topic": "병리자료 생성·검사·보존·폐기",
+          "question": "병리검사 시행 여부, 슬라이드·블록 생성 수량·장기별 분포·제작일·판독 기록을 먼저 특정하고 이관·폐기 일시·승인자·규정·남은 사진 원본을 대조한다.",
+          "state": "UNRESOLVED",
+          "source_refs": [
+            "LP_ROOT",
+            "LP_ADMIN"
+          ],
+          "next_artifact": "검사·생성·보관·폐기 요청–제공–누락 표"
+        },
+        {
+          "issue_id": "LP728-I02",
+          "topic": "LOT 00518001 제조·품질·유통 연결",
+          "question": "BMR·CoA·국가출하승인 시험 원자료·승인서·출하증명서·공급/반품/폐기 보고를 개별 물량과 연결한다. 국가출하승인서와 생물학적제제 출하증명서를 구분한다.",
+          "state": "UNRESOLVED",
+          "source_refs": [
+            "LP_ROOT",
+            "LP_REPORTS",
+            "LP_ADMIN"
+          ],
+          "identity_lock": "국가표준품 후보물질과 LOT 00518001의 동일성 미확인",
+          "next_artifact": "문서 종류·보유자·로트·물량·확인 근거 대조표"
+        },
+        {
+          "issue_id": "LP728-I03",
+          "topic": "신고·심의·제조사 후속 보고",
+          "question": "KIDS 신고와 VAERS 978233의 최초·정정·후속 보고, 부검자료 반영 및 기관 전달을 접수증·원본 이력으로 연결한다.",
+          "state": "UNRESOLVED",
+          "source_refs": [
+            "LP_REPORTS",
+            "LP_PHARMA"
+          ],
+          "receipt_lock": "회사 내부 CASE 번호·부서 이관 회신은 VAERS 갱신 완료나 본안 답변이 아님",
+          "next_artifact": "문의–회신–후속 보고–실제 접수 연결표"
+        },
+        {
+          "issue_id": "LP728-I04",
+          "topic": "평가기초·개별 감정·설명 동의",
+          "question": "접종일·연령·체중·증상·예진표 작성·설명 청취와 동의를 원자료별로 대조하고, 간 중량·다장기 울혈 해석 및 재검증 한계를 구분한다.",
+          "state": "UNRESOLVED",
+          "source_refs": [
+            "LP_ADMIN",
+            "LP_CIVIL"
+          ],
+          "next_artifact": "서면 주장·원자료·전문가 확인 필요사항 대조표"
+        }
+      ],
+      "framework_state": {
+        "source_ref": "LP_ROOT",
+        "R2.6-1": "CONFIRMED_IN_EXISTING_FRAMEWORK_RECORD",
+        "R2.6-2": "PENDING_TRANSITION_AND_DISPOSAL_AUDIT",
+        "R2.6-3": "NOT_ESTABLISHED_CANDIDATE_ONLY",
+        "R2.6-4": "NOT_ESTABLISHED",
+        "automatic_promotion": false
+      },
+      "medical_causation": "UNRESOLVED"
+    },
+    "GONG_HOJUN": {
+      "person": "공호준",
+      "role": "SEPARATE_RELATED_CASE_REFERENCE_ONLY",
+      "court_case": "2023구합78224",
+      "not_lp728_subcase": true,
+      "source_refs": [
+        "HJ_CASE",
+        "HJ_REVIEW"
+      ],
+      "procedure": {
+        "filing_date": "2026-10-08",
+        "three_evidence_applications": "NOT_ADOPTED_AS_CONFIRMED_IN_PUBLIC_SOURCE",
+        "confirmation_basis": "대리인 통보와 2026-10-15 유족의 법원 직접 전화 확인 보고",
+        "preparatory_brief": "SUBMITTED_DISTINCT_FROM_THREE_EVIDENCE_APPLICATIONS",
+        "reasoned_decision_for_october_applications": "NOT_OBTAINED_IN_REVIEWED_SOURCES",
+        "next_hearing": {
+          "date": "2026-11-05",
+          "status": "REPORTED_SCHEDULE_NOT_FRESH_COURT_VERIFICATION"
+        },
+        "administrative_review": {
+          "v3_documents": "PREPARED_UNDER_REVIEW_IN_20261017_SOURCE",
+          "actual_submission": "NOT_PROMOTED_TO_CONFIRMED_BY_THIS_INDEX",
+          "receipt": "NOT_CONFIRMED_BY_THIS_INDEX"
+        }
+      },
+      "issues": [
+        {
+          "issue_id": "HOJUN-I01",
+          "topic": "접종 경과와 평가 전제",
+          "question": "독감→화이자 1차의 18일 경과와 감정서 접종일 차이를 원기록과 대조하고 실제 검토·반영 범위를 설명받는다.",
+          "state": "UNRESOLVED",
+          "causation_lock": "접종 순서만으로 상호작용·사망 인과를 확정하지 않음"
+        },
+        {
+          "issue_id": "HOJUN-I02",
+          "topic": "HCAD·계측·조직 검경",
+          "question": "진단 기준·직경/내경·계측 위치·연령/체격·선천성/후천성 구별, 사진19~24 대응과 직접 검경 범위를 확인한다.",
+          "state": "UNRESOLVED",
+          "source_limit": "원고 서면의 검증 요구와 감정인별 실제 검토 범위를 구분"
+        },
+        {
+          "issue_id": "HOJUN-I03",
+          "topic": "견해 차이와 감별",
+          "question": "국소 심근세포비후의 견해 차이, 허혈·섬유화·심근염 검사 범위 및 배제 근거를 독립 전문가 질문으로 남긴다.",
+          "state": "UNRESOLVED"
+        },
+        {
+          "issue_id": "HOJUN-I04",
+          "topic": "남아 있는 표본 접근·보존",
+          "question": "파라핀 블록17개·슬라이드17매의 현황, 추가 절편·방문 검경·디지털 스캔·대여/반환 및 보존 연장을 확인한다.",
+          "state": "UNRESOLVED",
+          "preservation": {
+            "source_ref": "HJ_REVIEW",
+            "risk_window_as_argued_in_draft": "2027-02 말~2027-03 말",
+            "confirmed_disposal_date": null,
+            "confirmed_extension_acceptance": false,
+            "qualification": "적용 규정·기산점·예외·실제 예정 폐기일은 별도 확인. 초안의 위험 추정은 확정 기한이 아님"
+          }
+        }
+      ],
+      "requested_sequence": [
+        "국과수 사실조회",
+        "독립 조직표본 감정",
+        "결과를 반영한 보완감정"
+      ],
+      "sequence_is_actual_execution": false,
+      "medical_causation": "UNRESOLVED",
+      "lp728_framework_state_inherited": false
+    }
+  },
+  "ai_reading_rules": [
+    "항상 case_id와 소송·재심의 track을 먼저 확인한다.",
+    "한결이 검체 생성·폐기 쟁점과 호준이 잔여 표본 접근·보존 쟁점을 혼합하지 않는다.",
+    "공식 서면의 존재·제출과 서면 속 의학적 주장의 확정 여부를 구분한다.",
+    "이번 색인은 기존 공개 기록을 연결한 것이며 비공개 원본의 신규 열람·최신 법원 조회가 아니다.",
+    "불채택·행정 종결은 원자료 검증 완료가 아니다. 채택은 실제 회신·검경 완료가 아니다.",
+    "작성·전달·제출·접수·기관 조치를 각각 기록한다.",
+    "No automatic guilt / No automatic immunity / No benefit from obstruction.",
+    "이력은 보존하고 정정 근거와 시점을 연결한다. 멀티모델 동의는 독립 증명이 아니다."
+  ],
+  "software_boundary": {
+    "adonis_vos": "별도 코드·시험 저장소. 사례 색인과 요구사항만 연결; 비공개 원문·실데이터를 공개 시험에 넣지 않음",
+    "case_document_table_is_code_generation": false,
+    "technical_maintenance_is_case_closure": false
+  },
+  "next_work": [
+    "LP728 쟁점별 요청–제공–누락 표를 공개 출처와 연결",
+    "10월29일 기일·최신 서면·국과수 회신은 실제 증빙 확보 시 후속 갱신",
+    "호준이 재심의 제출·접수·전문가 수락은 별도 영수증으로 갱신"
+  ],
+  "future_updates_are_already_completed": false
+}
