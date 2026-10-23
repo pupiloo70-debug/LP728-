@@ -39,6 +39,32 @@
     "HJ_REVIEW": {
       "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/records/hojun-verification-20261016/review-v3-20261017.json",
       "record_id": "HOJUN-ADMIN-REVIEW-V3-20261017"
+    },
+    "LP_SUBMISSION_20261015": {
+      "record_id": "LP728-FOUR-FILINGS-SUBMISSION-CONFIRMATION-20261023-01",
+      "source_type": "USER_PROVIDED_COURT_SUBMITTED_COPIES_AND_COUNSEL_EMAIL_SCREENSHOT",
+      "source_document_date": "2026-10-15",
+      "verification_date": "2026-10-23",
+      "originals_publicly_downloadable": false,
+      "filings": [
+        {
+          "type": "준비서면",
+          "submitted_at": "2026-10-15T16:37:00+09:00"
+        },
+        {
+          "type": "심평원 사실조회촉탁신청서",
+          "submitted_at": "2026-10-15T16:48:00+09:00"
+        },
+        {
+          "type": "문서제출명령신청서",
+          "submitted_at": "2026-10-15T16:56:00+09:00"
+        },
+        {
+          "type": "감정신청서",
+          "submitted_at": "2026-10-15T17:21:00+09:00"
+        }
+      ],
+      "scope": "제공된 PDF의 제출 표시와 대리인의 오늘 제출했다는 메일을 대조. 법원 실시간 조회는 아님. 채택·촉탁 실시·감정 완료를 의미하지 않음"
     }
   },
   "cases": {
@@ -58,14 +84,17 @@
             "mfds_fact_inquiry": "NOT_ADOPTED",
             "nfs_fact_inquiry": "ADOPTED",
             "nfs_court_reply_receipt": "NOT_CONFIRMED_IN_REVIEWED_PUBLIC_RECORDS",
-            "latest_preparation_court_submission": "UNVERIFIED",
+            "latest_preparation_court_submission": "CONFIRMED_FROM_SUBMITTED_COPIES_AND_COUNSEL_EMAIL",
             "counsel_email_delivery": "SENT_USER_CONFIRMED",
-            "counsel_receipt": "UNVERIFIED"
+            "counsel_receipt": "UNVERIFIED",
+            "october_15_evidence_applications_submission": "CONFIRMED_FROM_SUBMITTED_COPIES_AND_COUNSEL_EMAIL",
+            "october_15_evidence_applications_adoption": "NOT_CONFIRMED_BY_THIS_CORRECTION"
           },
           "source_refs": [
             "LP_ROOT",
             "LP_HEARING",
-            "LP_ADMIN"
+            "LP_ADMIN",
+            "LP_SUBMISSION_20261015"
           ]
         },
         {
@@ -222,8 +251,20 @@
   },
   "next_work": [
     "LP728 쟁점별 요청–제공–누락 표를 공개 출처와 연결",
-    "10월29일 기일·최신 서면·국과수 회신은 실제 증빙 확보 시 후속 갱신",
+    "10월15일 네 서면 제출 확인 반영 완료. 10월29일 기일 변경·증거신청 채택·촉탁 실시·추가 회신은 별도 증빙으로 갱신",
     "호준이 재심의 제출·접수·전문가 수락은 별도 영수증으로 갱신"
   ],
-  "future_updates_are_already_completed": false
+  "future_updates_are_already_completed": false,
+  "last_updated": "2026-10-23",
+  "corrections": [
+    {
+      "date": "2026-10-23",
+      "type": "FACT_CORRECTION",
+      "field": "cases.LP728.tracks[LP728-ADMIN].procedure.latest_preparation_court_submission",
+      "previous": "UNVERIFIED",
+      "current": "CONFIRMED_FROM_SUBMITTED_COPIES_AND_COUNSEL_EMAIL",
+      "basis": "LP_SUBMISSION_20261015",
+      "note": "10월14일 검토·전달 기록은 당시 상태로 보존하고 10월15일 실제 제출 확인을 후속 연결. 의학적 인과관계·R2.6 단계 변경 없음."
+    }
+  ]
 }
