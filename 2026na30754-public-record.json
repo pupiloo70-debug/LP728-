@@ -1,0 +1,32 @@
+{
+  "record_id": "LP728-CIVIL-APPEAL-2026NA30754-PUBLIC-20261028",
+  "record_type": "civil_appeal_public_summary",
+  "case_number": "2026나30754",
+  "lower_court_case": "2022가단126218",
+  "appeal_document_date": "2026-09-03",
+  "publication_status": "OWNER_REVIEW_PENDING",
+  "source_status": "SUMMARY_NOT_ORIGINAL_FILING",
+  "claims_not_findings": true,
+  "issues": [
+    "school_de_facto_vaccination_requirement",
+    "liver_weight_1810g_and_congestion",
+    "lot_00518001_identity_and_release",
+    "informed_consent_and_prevaccination_screening",
+    "autopsy_material_preservation",
+    "independent_expert_review"
+  ],
+  "privacy": {
+    "excluded": [
+      "MMPI-A raw responses",
+      "private family messages",
+      "home address",
+      "phone numbers",
+      "personal identifiers",
+      "signatures"
+    ]
+  },
+  "related_urls": [
+    "https://github.com/pupiloo70-debug/LP728-",
+    "https://sgp-qsv-archive.pupiloo70.chatgpt.site/"
+  ]
+}
