@@ -1,47 +1,198 @@
+
 {
   "record_id": "LP728-PROCEDURE-CONTINUITY-20261028",
-  "status": "PUBLIC_SUMMARY_PENDING_PRIMARY_SOURCE_CROSSCHECK",
-  "cases": [
-    "2022누73101",
-    "2023두63703",
-    "2025구합53377",
-    "2026나30754"
-  ],
-  "timeline": [
+  "title": "LP728 예방접종 피해보상 접수반려부터 본안 검증까지 — 절차 연속성",
+  "record_date": "2026-10-28",
+  "status": "PUBLIC_SUMMARY_PENDING_PRIMARY_DOCUMENT_RECONCILIATION",
+  "origin": {
+    "case_id": "LP728",
+    "deceased": "박한결",
+    "date_of_death": "2019-07-28",
+    "cause_of_death": "부검상 사인 불명"
+  },
+  "vaccinations": [
     {
-      "date": "2020-winter",
-      "event": "노원구보건소 상담 및 역학조사",
-      "basis": "user_provided_account"
+      "date": "2019-01-25",
+      "product": "지로티프주",
+      "type": "장티푸스",
+      "lot": "00518001",
+      "provider": "노원구보건소"
     },
     {
-      "date": "2021",
-      "event": "2021-1 심의 및 2019년 접종 관련 재신청·접수반려 분쟁",
-      "basis": "user_provided_documents_and_account"
+      "date": "2019-01-29",
+      "product": "유박스비주",
+      "type": "B형간염",
+      "lot": "UFX17008",
+      "provider": "노원구보건소"
     },
     {
-      "date": "2024-04-12",
-      "event": "2023두63703 상고기각, 접수반려 관련 판결 확정",
-      "scope": "접수반려 판단, 의학적 인과성 아님"
-    },
-    {
-      "date": "2024",
-      "event": "2024-53 장티푸스 피해보상 심의 및 거부"
-    },
-    {
-      "date": "2025",
-      "event": "2025구합53377 보상거부처분 취소소송"
-    },
-    {
-      "date": "2026-10-15",
-      "event": "준비서면·감정신청서·문서제출명령신청서·심평원 사실조회촉탁신청서 제출",
-      "basis": "user_reported_submission; verify final filed originals"
+      "date": "2019-01-31",
+      "product": "박타주",
+      "type": "A형간염",
+      "lot": "M040514",
+      "provider": "백내과의원"
     }
   ],
-  "open_questions": [
-    "2021-1 및 2024-53의 원자료 이관·정정 이력",
-    "부검 병리자료 보존·폐기일과 적용 규정",
-    "LOT 00518001 출하승인 및 제조·품질 원자료",
-    "2026-10-15 서면 4건 최종 접수 원문과 채택 여부"
-  ],
-  "privacy": "No private conversations, sensitive tests or personal identifiers published"
+  "original_investigation": {
+    "period": "2020년 겨울~2021년",
+    "agency": "노원구보건소",
+    "purpose": "사망 이상반응 신고 및 역학조사",
+    "findings": [
+      "2019년 세 백신의 접종 이력이 조사자료에 포함됨",
+      "LOT 00518001에는 최초 조사 당시부터 거래명세서만 첨부됨",
+      "LOT 00518001의 국가출하승인 관련 증명서는 최초 조사자료에 첨부되지 않음",
+      "다른 두 백신에는 출하 관련 증명자료가 포함됨",
+      "A형간염 접종기관의 예진표 미확보 문제가 조사자료에 기록됨"
+    ],
+    "important_distinction": "출하 관련 증명서의 미첨부는 국가출하승인 자체가 없었다는 의미가 아니며, 원자료 확인이 필요함"
+  },
+  "initial_review": {
+    "review_id": "2021-1",
+    "subject": "2016년 일본뇌염 및 Tdap 접종 관련 심의",
+    "outcome": "피해보상 불인정",
+    "disputed_records": [
+      "연령 12세 기재",
+      "과거력 없음 기재",
+      "접종 후 증상 발생 시간간격 약 4개월 기재",
+      "2019년 세 백신 접종 이력의 심의 반영 문제",
+      "기존 진료기록과 심의자료 사이의 불일치"
+    ],
+    "status": "기재 경위와 원자료 대조 필요"
+  },
+  "rejection_and_return": {
+    "period": "2021년 4분기~2022년",
+    "resubmission_agency": "동대문구보건소",
+    "route": [
+      "동대문구보건소",
+      "서울특별시",
+      "질병관리청"
+    ],
+    "issue": "2019년 세 백신 관련 피해보상 신청의 접수반려",
+    "consequence": [
+      "기존 역학조사자료가 유족의 집으로 반환됨",
+      "유족이 반환된 조사자료에서 출하 관련 증명서와 예진표의 미첨부를 확인함",
+      "접수반려 취소 행정소송 진행"
+    ],
+    "status": "기관별 송부·반려 일자와 사유는 원문 대조 필요"
+  },
+  "administrative_litigation": {
+    "cases": [
+      "2022누73101",
+      "2023두63703"
+    ],
+    "supreme_court_date": "2024-04-12",
+    "outcome": "접수반려 관련 원고 일부승소 확정",
+    "scope": "피해보상 신청의 접수에 관한 절차적 판단",
+    "not_established": [
+      "백신과 사망의 의학적 인과관계",
+      "제조사의 제품 결함",
+      "실험용 백신 투여 여부"
+    ]
+  },
+  "manufacturer_and_regulatory_records": {
+    "mfds_requests": {
+      "year": "2023",
+      "subject": "지로티프 제조·성분·품질자료",
+      "issue": "영업비밀 등을 이유로 원자료 접근 제한"
+    },
+    "research_records": {
+      "candidate_vials_produced": 4070,
+      "production_year": 2018,
+      "national_reference_candidate": "MFDS-B-18-001",
+      "reported_national_receipt_vials": 3900,
+      "relationship_to_lot_00518001": "UNRESOLVED",
+      "required_verification": [
+        "제조기록서 BMR",
+        "시험성적서 CoA",
+        "국가출하승인 자료",
+        "제조번호별 제품 동일성",
+        "국가표준품 후보물질의 제조·인수·보관 기록"
+      ],
+      "interpretation": "후보물질 생산기록과 접종 LOT의 동일성은 확인되지 않았으며 독립적인 원자료 대조가 필요함"
+    }
+  },
+  "subsequent_review": {
+    "review_id": "2024-53",
+    "subject": "장티푸스 예방접종 피해보상 심의",
+    "outcome": "피해보상 불인정",
+    "disputed_issues": [
+      "기존 역학조사자료의 이관·재사용 경위",
+      "과거 심의자료 오류의 정정 여부",
+      "생전 증상 및 병리 소견의 평가",
+      "접수반려에 따른 검증 지연"
+    ]
+  },
+  "current_administrative_case": {
+    "case_number": "2025구합53377",
+    "court": "서울행정법원",
+    "case_type": "예방접종피해보상 거부처분 취소",
+    "plaintiff_position": "접수반려로 지연된 검증과 국가기관이 관리하던 원자료의 소실을 유족에게 불리하게 평가해서는 안 된다는 주장",
+    "submissions_2026_10_15": [
+      {
+        "document": "준비서면",
+        "purpose": "사인 불명과 인과관계 배제의 구별, 생전 증상 및 심의 오류 검토"
+      },
+      {
+        "document": "감정신청서",
+        "purpose": "임상면역 등 독립 전문감정과 부검사진 원본 검토"
+      },
+      {
+        "document": "문서제출명령신청서",
+        "purpose": "2021년 및 2024년 심의·조사 원자료와 작성·검토 경위 확인"
+      },
+      {
+        "document": "심평원 사실조회촉탁신청서",
+        "purpose": "LOT 00518001의 반품·폐기 기록과 보고 주체 및 처리 경로 확인"
+      }
+    ],
+    "submission_status": "유족 제공 설명 기준 제출",
+    "adoption_status": "각 신청의 채택 여부는 법원 기록으로 별도 확인"
+  },
+  "civil_litigation": {
+    "first_instance": "2022가단126218",
+    "appeal": "2026나30754",
+    "issues": [
+      "학교의 사실상 강제와 안전배려의무",
+      "접종 전 설명 및 동의",
+      "예진표 미작성·미확보",
+      "연속접종 위험평가",
+      "사망 원인에 관한 독립 감정",
+      "제조·품질·출하 원자료 검증"
+    ],
+    "linked_files": [
+      "2026na30754-appeal-public-summary.md",
+      "2026na30754-public-record.json"
+    ]
+  },
+  "evidence_loss": {
+    "material": [
+      "국과수 병리 슬라이드",
+      "파라핀 블록"
+    ],
+    "issue": "재검경에 필요한 병리 원자료의 폐기 경위와 보존규정 적용 문제",
+    "legal_questions": [
+      "폐기일과 폐기 결정·집행 경위",
+      "2019년 당시 보존규정의 적용 여부",
+      "증명방해 및 불리한 사실인정 가능성",
+      "원자료 소실에 따른 입증책임과 증명도 문제"
+    ],
+    "status": "법적 판단 필요"
+  },
+  "publication_policy": {
+    "public": true,
+    "include": [
+      "공식 사건번호",
+      "접종일과 제조번호",
+      "절차 연속성",
+      "원고의 검증 요구",
+      "미해결 증거 쟁점"
+    ],
+    "exclude": [
+      "고인의 심리검사 원본",
+      "가족의 사적 대화",
+      "개인 연락처 및 주소",
+      "비공개 의료기록 원문"
+    ],
+    "rule": "법원 확정 판단, 원고 주장, 기관 회신 및 미해결 의혹을 구별한다"
+  }
 }
