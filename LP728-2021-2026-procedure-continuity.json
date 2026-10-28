@@ -1,0 +1,47 @@
+{
+  "record_id": "LP728-PROCEDURE-CONTINUITY-20261028",
+  "status": "PUBLIC_SUMMARY_PENDING_PRIMARY_SOURCE_CROSSCHECK",
+  "cases": [
+    "2022누73101",
+    "2023두63703",
+    "2025구합53377",
+    "2026나30754"
+  ],
+  "timeline": [
+    {
+      "date": "2020-winter",
+      "event": "노원구보건소 상담 및 역학조사",
+      "basis": "user_provided_account"
+    },
+    {
+      "date": "2021",
+      "event": "2021-1 심의 및 2019년 접종 관련 재신청·접수반려 분쟁",
+      "basis": "user_provided_documents_and_account"
+    },
+    {
+      "date": "2024-04-12",
+      "event": "2023두63703 상고기각, 접수반려 관련 판결 확정",
+      "scope": "접수반려 판단, 의학적 인과성 아님"
+    },
+    {
+      "date": "2024",
+      "event": "2024-53 장티푸스 피해보상 심의 및 거부"
+    },
+    {
+      "date": "2025",
+      "event": "2025구합53377 보상거부처분 취소소송"
+    },
+    {
+      "date": "2026-10-15",
+      "event": "준비서면·감정신청서·문서제출명령신청서·심평원 사실조회촉탁신청서 제출",
+      "basis": "user_reported_submission; verify final filed originals"
+    }
+  ],
+  "open_questions": [
+    "2021-1 및 2024-53의 원자료 이관·정정 이력",
+    "부검 병리자료 보존·폐기일과 적용 규정",
+    "LOT 00518001 출하승인 및 제조·품질 원자료",
+    "2026-10-15 서면 4건 최종 접수 원문과 채택 여부"
+  ],
+  "privacy": "No private conversations, sensitive tests or personal identifiers published"
+}
