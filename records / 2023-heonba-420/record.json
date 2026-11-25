@@ -1,0 +1,28 @@
+{
+  "record_id": "LP728-CONST-2023HEONBA420-20261123",
+  "case_id": "2023헌바420",
+  "decision_date": "2026-04-29",
+  "site_status": "PUBLICATION_PENDING",
+  "original_pdf_private": true,
+  "redacted_public_pdf": "2023헌바420_20260429_결정문_개인정보가림_공개본.pdf",
+  "news": {
+    "title": "학교 권유로 맞은 백신 사망… 헌재 ‘필수접종만 국가 책임’",
+    "publisher": "팜뉴스",
+    "author": "우정민",
+    "published": "2026-05-12",
+    "updated": "2026-05-15",
+    "url": "https://www.pharmnews.com/news/articleView.html?idxno=303443"
+  },
+  "position": "BEREAVED_FAMILY_LEGAL_CRITIQUE",
+  "outcome": "CONSTITUTIONAL",
+  "holding": "NOT_UNCONSTITUTIONAL",
+  "causation": "UNRESOLVED",
+  "corruption_or_misconduct": "NOT_ESTABLISHED",
+  "privacy_status": "REVIEW_BEFORE_PUBLICATION",
+  "framework": {
+    "CIVIC_TRACE": "0.4.5",
+    "next": "0.4.6_ON_HOLD",
+    "total_score": null
+  },
+  "links_verified_live": false
+}
